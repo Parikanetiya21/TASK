@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            width:100%;
+        }
+        .image{
+            width: 100%;
+            height: 670px;
+            background-image: url(CSS/base.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .one{
+            /*width: 26%;
+            height: 400px;
+            background-color: aquamarine;*/
+            float: left;
+            margin-left: 300px;
+            margin-top: 150px;
+        }
+       .two{
+            width:26%;
+            height: 400px;
+            background-color: bisque;
+            margin-top: 150px;
+            font-size: 15pt;
+            text-align: center;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+        <div id="main">
+            <div class="image">
+    
+                <div class="one">
+                    <img src="CSS/FD.jpg" alt="fd" height="400px">
+                </div>
+
+                <div class="two">
+                    <p style="font-size: 20pt;"><b> Fashion Designing Course Registration</b></p>
+                    <form action="" method="post" name="registration" enctype="multipart/form-data">
+                        <table border="1" align="center">
+                            <tr>
+                                <td>Title:</td>
+                                <td><input type="radio" name="title" value="Miss">Miss
+                                    <input type="radio" name="title" value="Mr">Mr
+                                    <input type="radio" name="title" value="Mrs">Mrs
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="name"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>DOB:</td>
+                                <td><input type="dob" name="dob"></td>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td><input type="address" name="address"></td>
+                            </tr>
+                            <tr>
+                                <td>Contact Number:</td>
+                                <td><input type="Contact" name="Contact"></td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><input type="email" name="email"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <input type="submit" name="submit" value="Register">
+                                </td>
+                            </tr>
+                        </table>
+                </div>
+             </div>
+        </div>
+</body>
+</html>
